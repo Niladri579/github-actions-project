@@ -1,7 +1,5 @@
 name: DEV Workflow
-on:
-  push:
-    branches: [ "dev" ]
+on: workflow_dispatch
 jobs:
   clone:
     runs-on: ubuntu-latest
