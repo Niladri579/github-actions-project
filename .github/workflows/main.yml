@@ -1,4 +1,4 @@
-name: DEV Workflow
+name: First Workflow
 on:
   push:
     branches: [ "dev" ]
@@ -17,3 +17,17 @@ jobs:
         run: echo "Hi World!"
       - name: Print goodbye
         run: echo "OK - bye!"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
