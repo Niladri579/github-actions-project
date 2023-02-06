@@ -2,7 +2,7 @@ name: DEV Workflow
 on: 
   pull_request:
     branches: 
-      - main
+      - dev
 jobs:
   clone:
     runs-on: ubuntu-latest
