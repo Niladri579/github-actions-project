@@ -1,0 +1,34 @@
+name: QA Workflow
+on: 
+  pull_request:
+    branches: 
+      - release
+jobs:
+  clone:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hi World!"
+      - name: Print goodbye
+        run: echo "OK - bye!"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
