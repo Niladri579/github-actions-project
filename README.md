@@ -1,1 +1,1 @@
-# github-actions-projec
+# github-actions-project
