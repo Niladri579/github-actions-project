@@ -1,8 +1,8 @@
 name: DEV Workflow
 on: 
-  push:
+  pull_request:
     branches: 
-      - main
+      - dev
 jobs:
   clone:
     runs-on: ubuntu-latest

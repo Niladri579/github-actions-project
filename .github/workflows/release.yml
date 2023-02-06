@@ -1,8 +1,8 @@
-name: PROD  Workflow
+name: QA Workflow
 on: 
   pull_request:
     branches: 
-      - main
+      - release
 jobs:
   clone:
     runs-on: ubuntu-latest
